@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import TextInput from './components/TextInput'
 import { Route,Routes,BrowserRouter } from 'react-router-dom'
 import LoginForm from './components/LoginForm'
+import Tester from './contexts/Tester'
 
 
 export default function App() {
@@ -14,7 +15,7 @@ export default function App() {
       <Navbar />
       </div>
         <Routes>
-          <Route path='/' element={<Hero/>}/>
+          <Route path='/' element={<Tester/>}/>
           <Route path='/textinput' element={<TextInput/>}/>
           <Route path='/login' element={<LoginForm/>}/>
         </Routes>

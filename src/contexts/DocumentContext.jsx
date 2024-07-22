@@ -7,6 +7,7 @@ const DocumentContextProvider = ({children}) => {
 
     const[isAuth,setisAuth] = useState();
 
+
   
   return (
     <DocumentContext.Provider value={{text:"hello",setisAuth}}>

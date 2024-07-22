@@ -15,8 +15,6 @@ const LoginForm = () => {
             const response = await axios.get(`${BASE_URL}/login/github`);
             console.log(response.request.responseURL);
             window.location.href = response.request.responseURL;
-  
-
         } catch (error) {
             console.error('Error during login redirect:', error);
         }
