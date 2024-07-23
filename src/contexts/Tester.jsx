@@ -12,7 +12,7 @@ const Tester = () => {
                 "type_content": "story"
               }
             try {
-                const response = await axios.post(BASE_URL+"/extract/",payload);
+                const response = await axios.post(BASE_URL+"/extract",payload);
                 console.log(response);
             } catch (error) {
                 console.error(error);

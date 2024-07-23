@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react'
 import axios from 'axios';
 export const DocumentContext = createContext();
-export const BASE_URL = "https://0f23-122-171-19-173.ngrok-free.app"
+export const BASE_URL = "http://13.51.14.3:8080"
 
 const DocumentContextProvider = ({children}) => {
 
