@@ -1,8 +1,11 @@
-import React from 'react';
+import React from "react";
 
-const GitHubButton = ({login}) => {
+const GitHubButton = ({ login }) => {
   return (
-    <button className="flex items-center bg-gray-900 text-white py-2 px-6 text-sm font-bold text-center align-middle rounded-lg gap-3 border-none cursor-pointer shadow-md transition duration-600 ease-in-out hover:shadow-none" onClick={login}>
+    <button
+      className="flex items-center bg-gray-900 text-white py-2 px-6 text-sm font-bold text-center align-middle rounded-lg gap-3 border-none cursor-pointer shadow-md transition duration-600 ease-in-out hover:shadow-none"
+      onClick={login}
+    >
       <svg
         fill="#ffffff"
         xmlns="http://www.w3.org/2000/svg"
@@ -10,7 +13,11 @@ const GitHubButton = ({login}) => {
         className="h-7"
       >
         <g strokeWidth="0" id="SVGRepo_bgCarrier"></g>
-        <g strokeLinejoin="round" strokeLinecap="round" id="SVGRepo_tracerCarrier"></g>
+        <g
+          strokeLinejoin="round"
+          strokeLinecap="round"
+          id="SVGRepo_tracerCarrier"
+        ></g>
         <g id="SVGRepo_iconCarrier">
           <title>github</title>
           <rect fill="none" height="24" width="24"></rect>
